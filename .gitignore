@@ -1,0 +1,40 @@
+# Large data directories
+train_images/
+train_labels/
+test_images/
+
+# Model checkpoints (too large for git)
+*.pth
+*.pt
+*.h5
+*.ckpt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Outputs
+predictions/
+submissions/
+*.zip
+
+# Logs
+*.log
+*.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
